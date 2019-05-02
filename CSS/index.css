@@ -1,7 +1,8 @@
 * {
-	padding: 0;
 	margin: 0;
+	padding: 0;
 }
+
 body {
 	width: 100%;
 }
@@ -12,20 +13,21 @@ table {
 }
 
 /*顶部和底部*/
-thead th,
-tfoot td {
+thead th, tfoot td {
 	height: 60px;
-	background: #87CEFA;
 	text-align: left;
+	background: #87cefa;
 }
 
 tfoot td {
 	text-align: center;
 }
+
 /*中间部分*/
+
 /*左边*/
 tbody td {
-	border: 2px solid #CFCFCF;
+	border: 2px solid #cfcfcf;
 }
 
 .left {
@@ -42,16 +44,16 @@ tbody td {
 .left p:nth-child(6) {
 	font-weight: bold;
 }
+
 /*右边*/
 .right {
 	width: 88%;
 }
 
-.right .all td,
-.right .search td {
+.right .all td, .right .search td {
 	height: 50px;
-	border: 2.5px solid #CFCFCF;
 	padding-left: 10px;
+	border: 2.5px solid #cfcfcf;
 }
 
 .right .list td {
