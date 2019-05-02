@@ -8,12 +8,13 @@ body {
 
 table {
 	width: 100%;
+	border-collapse: collapse;
 }
 
 /*顶部和底部*/
 thead th,
 tfoot td {
-	height: 70px;
+	height: 60px;
 	background: #87CEFA;
 	text-align: left;
 }
@@ -23,15 +24,46 @@ tfoot td {
 }
 /*中间部分*/
 /*左边*/
+tbody td {
+	border: 2px solid #CFCFCF;
+}
+
 .left {
 	width: 12%;
+	padding-left: 10px;
+}
+
+.left p {
+	line-height: 2.5em;
+	position: relative;
+	bottom: 180px;
+}
+
+.left p:nth-child(6) {
+	font-weight: bold;
 }
 /*右边*/
 .right {
 	width: 88%;
 }
 
+.right .all td,
+.right .search td {
+	height: 50px;
+	border: 2.5px solid #CFCFCF;
+	padding-left: 10px;
+}
+
+.right .list td {
+	height: 54px;
+	text-align: center;
+}
+
+.right .list tr:nth-child(1) td {
+	height: 50px;
+}
+
 .right img {
-	width: 70px;
-	height: 60px;
+	width: 54px;
+	height: 54px;
 }
